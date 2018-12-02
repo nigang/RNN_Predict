@@ -84,9 +84,6 @@ for epoch in range(EPOCH):
 
         if step % 100 == 0:
             predict_y = model(test_x)
-            import pdb
-            pdb.set_trace()
-
 
 
 
